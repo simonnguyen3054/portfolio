@@ -1,0 +1,111 @@
+/* web background */
+body {
+  background: url("../images/background_icon.png") no-repeat center center fixed;
+  background-size: cover;
+}
+
+#container {
+  min-height: 100vh; /* will cover the 100% of viewport */
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 50px; /* height of footer */
+}
+
+/* center the body */
+.center {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* Navigation <========================================> */
+#menu {
+  background-color: #ffffff;
+  border-bottom: #cccccc solid;
+  border-width: thin;
+  overflow: hidden;
+  padding: 20px 0px;
+}
+
+li {
+  float: left;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#logo a {
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #4aaaa5;
+}
+
+.menu-item {
+  float: right;
+  color: #cccccc;
+}
+
+.menu-item a {
+  color: #777777;
+}
+
+li a {
+  display: inline;
+  text-decoration: none;
+  padding: 20px;
+  text-align: center;
+}
+
+.pipe::after {
+  content: "|";
+  opacity: 0.5;
+}
+
+/* header <========================================> */
+#header {
+  background-color: #ffffff;
+  margin-top: 50px;
+  padding: 25px 0 25px;
+  overflow: hidden;
+}
+
+#header h1 {
+  font-size: 25px;
+  padding-bottom: 15px;
+  color: #4aaaa5;
+  font-weight: bold;
+}
+
+hr {
+  height: 3px;
+  border: none;
+  background-color: #cccccc;
+  margin-bottom: 25px;
+}
+
+/* Portfolio <========================================> */
+.image-size {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  margin-right: 25px;
+  float: left;
+}
+
+.img_row_two {
+  margin-top: 25px;
+}
+
+/* footer <========================================> */
+#footer-container {
+  background-color: #666666;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-top: #4aaaa5 solid 7px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+#footer-container p {
+  margin-bottom: 3px;
+  color: #cccccc;
+}
